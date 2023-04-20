@@ -1,0 +1,480 @@
+body{
+    margin:auto
+}
+.main p{
+    color: #FFFFFF;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.description{
+    background-image:url('images/dotSshiba.png') ,linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 60px 130px 60px;
+}
+header{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shibaLogo{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    justify-content: space-between;
+    align-items: center;
+}
+.studySpace{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.studyText{
+    display: flex;
+    justify-content: flex-end;
+}
+h1{
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    font-family:'Red Hat Display',  sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.studySpace button{
+    width: 170px;
+    height: 40px;
+    background: #AC1216;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-left: 15px;
+    border: none;
+}
+.info{
+    display: flex;
+}
+.textDescription{
+    width: 50%;
+}
+.textDescription p{
+    font-family:'Red Hat Display',  sans-serif;
+}
+.whoIs, .mr{
+    font-weight: 800;
+    font-size: 60px;
+    display: flex;
+    margin: auto;
+}
+.hybrid{
+    font-size: 20px;
+    font-weight: 500;
+    color: #71768E;   
+    margin: auto; 
+}
+.spiderInfo{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #A0A3B5;
+}
+.shibaImg{
+    width: 50%;
+    margin-left: 150px;
+}
+.comunity{
+    background: #E11D2E;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-right: 15px;
+    color: azure;
+}
+.moreAbout{
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: none;
+    color: azure;
+    width: 200px;
+    height: 50px;
+}
+.ID{
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px 20px ;
+}
+.ID p{
+    margin: auto;
+    font-size: 15px;
+}
+.warning{
+    background: #5A4039;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgba(255, 245, 0, 0.6);
+    font-family: 'Red Hat Display',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 0 10px 0 10px;
+}
+.mainrules{
+    background-color: #101932;
+    padding: 50px 100px 50px 100px;
+    font-family: 'Red Hat Display',  sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.work{
+    font-family: 'Red Hat Display',  sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: aliceblue;
+}
+.rulesBlocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Red Hat Display',  sans-serif;
+    
+}
+.rulesBlocks div{
+    background: #384D70; 
+    border-radius: 20px;
+    margin: 50px 50px 0px 0px;
+    padding: 30px 40px 40px 40px ;
+}
+.mainrules p{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Red Hat Display',  sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.gamePlot{
+    background: #071022;
+    border-radius: 30px;    
+    height: 384px;
+    margin-top: 60px;
+}
+.gamePlot{
+    padding: 40px;
+}
+.ivents{
+    display: flex;
+    margin-top: 50px;
+    text-align: start;
+}
+.ivents p{
+    text-align:start;
+    color: #FFFFFF;
+    font-family: 'Red Hat Display',  sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.iventText{
+    width: 70%;
+}
+.ivents img{
+    width: 20%;
+}
+.iventText h4{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.purpelBlock{
+    height: 462px;
+    background: url('images/Vector.png'), #30298C;
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 0%;
+    padding: 100px 50px 0px 50px;
+}
+.purpelBlock p{
+    text-align: start;
+}
+h5{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;    
+}
+.qw button{
+    background: #E11D2E;
+    border-radius: 10px;
+    padding: 20px 25px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+}
+.answer p{
+    font-size: 25px;
+}
+h6{
+    font-weight: 400;
+    font-size: 27px;
+    margin: auto;
+    color: #a0a3b5;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.team{
+    padding: 50px 100px 50px 100px;
+    background-color: 
+    #162344;
+}
+.teamBlocs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.teamBlocs p{
+    font-size: 20px;
+}
+.dot{
+    height: 10px;
+    border: none;
+    margin-right: 5px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center
+}
+.partners img{
+    margin: 10px;
+}
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.frequentlyBlock{
+    width: 100%;
+    background: #384D70;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 70%;
+}
+.frequentlyBlock p{
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+}
+.frequently{
+    background: #101932;
+    padding: 50px 170px 50px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join{
+    background: url('images/Vector\ \(1\).png'), #162758;
+    height: auto;
+    padding: 50px 170px 50px 170px;
+}
+.companies{
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: luminosity; 
+    opacity: 0.1;
+    flex-wrap: wrap;
+}
+.companies img{
+
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.team p{
+    text-align: center;
+}
+.frequently p{
+    text-align: center;
+}
+.imgButtonShiba button{
+    background: #E11D2E;
+    border-radius: 10px;
+    padding: 10px 45px 15px;
+    display: flex;
+    width: 277px;
+    height: 77px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    border: none;
+    gap: 15px;
+    margin-top: -350px;
+
+}
+.imgButtonShiba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gamePlot{
+    display: flex;
+    justify-content: space-around;
+}
+.coin, .mictofon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.shibaspiderImg{
+    display: none;
+}
+.rulesBlocks div{
+    width: 456px;
+}
+.ivents div{
+    margin-right: 20px;
+}
+.textgamePlot{
+    width: 50%;
+}
+.qw{
+    width: 30%;
+}
+.answer{
+    width: 70%;
+}
+
+
+
+@media (max-width: 1370px){
+    .shibaImg{
+        width: none;
+        margin-left: 0px;
+    }
+    .gamePlot{
+        flex-wrap: wrap;
+        height: 812px;
+    }
+    .purpelBlock{
+        padding: 55px 50px 62px 50px;
+    }
+
+}
+@media (max-width: 1189px) {
+    .description{
+        background-image: url(images/backGsmall.png) ,linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
+        background-size: cover;
+    }
+    .studySpace{
+        display: none;
+    }
+    .info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .shibaImg{
+        width: none;
+        margin-left: 0px;
+    }
+    .rulesBlocks{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    .gamePlot{
+        flex-wrap: wrap;
+        height: 812px;
+    }
+    .gamePlot img{
+        width: 100%;
+    }
+    .textgamePlot{
+        width: none;
+    }
+    .ivents{
+        flex-direction: column;
+    }
+    .ivents .coin, .mictofon{
+        margin-right: 0px;
+    }
+    .purpelBlock{
+        height: auto;
+        flex-direction: column;
+        padding: 100px 50px 100px 50px;
+    }
+    .partners img{
+        width: 123px;
+    }
+    .rulesBlocks div{
+        margin: 50px 0px 0px 0px;   
+        width: 523px;
+    }
+    .companies img{
+        width: 123px;
+    }
+    .frequently{
+        padding: 50px 0px 50px 0px;
+    }
+    .textDescription{
+        width: 100%;
+    }
+    .shibaImg{
+        margin: none;
+        width:fit-content;
+    }
+    .comunity, .moreAbout{
+        width: 100%;
+        height: 70px;
+        font-weight: 700;
+        font-size: 19px;
+    }
+    .shibaImg{
+        display: none;
+    }
+    .shibaspiderImg{
+        display: flex;
+    }
+    .imgButtonShiba img{
+        margin: 0px 0px 50px 0px;
+        width: 100%;
+    }
+    .ivents div{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .textgamePlot{
+        width: 100%;
+    }
+    .qw{
+        width: 100%;
+    }
+    .answer{
+        width: 100%;
+    }
+    h5{
+        font-size: 30px;
+    }
+    .ID p{
+        font-size: 10px;
+    }
+    .mainrules{
+        padding: 50px 10px 50px 10px
+    }
+    .imgButtonShiba button{
+        margin-top: 0px;
+    }
+    .teamBlocs{
+        justify-content: center;
+    }
+
+}
