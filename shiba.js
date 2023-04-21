@@ -1,7 +1,10 @@
 let menu = document.getElementById('menu')
-let list = document.getElementsByName('studyText')
+let list = document.getElementsByClassName('studySpace')
 
 menu.addEventListener('click', function(e) {
     e.preventDefault();
-    document.getElementsByClassName('studyText')[0].style= "display: block";
+    if (list) {
+        list.classList.toggle('list_active')
+    }
+    
 })
