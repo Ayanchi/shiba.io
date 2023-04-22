@@ -41,6 +41,11 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+.studySpace button:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
 h1{
     font-size: 12px;
     color: #FFFFFF;
@@ -98,6 +103,11 @@ h1{
     margin-right: 15px;
     color: azure;
 }
+.comunity:hover,  .moreAbout:hover{
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
 .moreAbout{
     background: rgba(255, 255, 255, 0.05);
     border-radius: 10px;
@@ -118,6 +128,9 @@ h1{
 .ID p{
     margin: auto;
     font-size: 15px;
+}
+.work{
+    margin-top: 347px;
 }
 .warning{
     background: #5A4039;
@@ -223,6 +236,11 @@ h5{
     color: #FFFFFF;
     border: none;
 }
+.qw button:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
 .answer p{
     font-size: 25px;
 }
@@ -321,7 +339,11 @@ h6{
     border: none;
     gap: 15px;
     margin-top: -350px;
-
+}
+.imgButtonShiba button:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
 }
 .imgButtonShiba{
     display: flex;
@@ -357,6 +379,11 @@ h6{
 }
 #menu{
     display: none;
+}
+.gamePlot img{
+    height: 234px; 
+    margin-top: inherit; 
+    margin-right: 20px;
 }
 
 
@@ -489,6 +516,19 @@ h6{
     .teamBlocs{
         justify-content: center;
     }
+    .studySpace{
+        flex-direction: column;
+        margin-top: 29px;
+        border: 2px solid red;
+        border-radius: 10px;
+    }
+    .studySpace button{
+        margin-top: 10px;
+    }
+    .studyText{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     @media (max-width: 600px) {
         .logo{
@@ -496,6 +536,30 @@ h6{
         }
         .logo p{
             margin: auto;
+        }
+        .main p{
+            font-size: 20px;
+        }
+        .ID p{
+            font-size: 10px;
+        }
+        .work{
+            margin-top: 136px;
+        }
+        h5{
+            font-size: 20px;
+        }
+        h6{
+            font-size: 20px;
+        }
+        .team{
+            padding: 50px 45px 50px 45px;
+        }
+        .description{
+            padding: 10px 25px 100px 25px;
+        }
+        .gamePlot img{
+            height: 154px;
         }
     }
 

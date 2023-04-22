@@ -1,10 +1,9 @@
-let menu = document.getElementById('menu')
-let list = document.getElementsByClassName('studySpace')
 
-menu.addEventListener('click', function(e) {
-    e.preventDefault();
-    if (list) {
-        list.classList.toggle('list_active')
+function hideMenu() {
+    var x = document.getElementById("studySpace");
+    if (x.style.display === "none") {
+      x.style.display = "flex";
+    } else {
+      x.style.display = "none";
     }
-    
-})
+}
