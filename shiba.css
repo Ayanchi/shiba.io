@@ -32,7 +32,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.studySpace{
+#studySpace{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,7 +55,7 @@ h1{
     font-weight: 500;
 }
 .studySpace button{
-    width: 170px;
+    width: 170px ;
     height: 40px;
     background: #AC1216;
     border-radius: 10px;
@@ -68,6 +68,9 @@ h1{
 }
 .textDescription{
     width: 50%;
+}
+.text{
+    display: flex;
 }
 .textDescription p{
     font-family:'Red Hat Display',  sans-serif;
@@ -385,6 +388,9 @@ h6{
     margin-top: inherit; 
     margin-right: 20px;
 }
+.cross{
+    display: none;
+}
 
 
 
@@ -410,8 +416,12 @@ h6{
         background-image: url(images/backGsmall.png) ,linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
         background-size: cover;
     }
-    .studySpace{
+    #studySpace{
         display: none;
+    }
+    .cross{
+        display: flex;
+        justify-content: flex-end;
     }
     .info{
         flex-direction: column;
@@ -419,6 +429,10 @@ h6{
     }
     #menu{
         display: flex;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
     }
     .shibaImg{
         width: none;
@@ -516,18 +530,30 @@ h6{
     .teamBlocs{
         justify-content: center;
     }
-    .studySpace{
+    #studySpace{
         flex-direction: column;
         margin-top: 29px;
-        border: 2px solid red;
-        border-radius: 10px;
+        position: fixed;
+        background: #384D70;
+        top: -30px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        align-items: flex-start;
+        padding: 20px;
+        
+    }
+    h1{
+        font-size: 30px;
     }
     .studySpace button{
         margin-top: 10px;
+        width: 400px;
+        height: 80px;
+        font-size: 30px;
     }
     .studyText{
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
     }
 
     @media (max-width: 600px) {
@@ -560,6 +586,14 @@ h6{
         }
         .gamePlot img{
             height: 154px;
+        }
+        h1{
+            font-size: 20px;
+        }
+        .studySpace button{
+            width: 170px ;
+            height: 40px;
+            font-size: 20px;
         }
     }
 
